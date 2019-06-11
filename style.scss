@@ -1,23 +1,26 @@
-$font-style:
-$font-title-color:
-$font-menu-color:
-$font-menu-color-hover:
-$font-paragraph-color:
-$font-menu-size:
-$font-paragraph-size:
-$background-button-color:
-$background-card-color:
-$background-service-color: (tmb para testimonial y our cl)
-$background-service-card-color: (tmb our cl)
-$background-service-card-size:
-$font-testimonial-type:
-$slide-team-color:
-$background-color:
-$backround-footer-color: red;
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+$font-style-title: "Montserrat", sans-serif;
+$font-style-paragraph: "Open Sans", sans-serif;
+$font-title-color: ;
+$font-menu-color: ;
+$font-menu-color-hover: ;
+$font-paragraph-color: ;
+$font-menu-size: ;
+$font-paragraph-size: ;
+$background-button-color: ;
+$background-card-color: ;
+$background-service-color: ;
+(tmbparatestimonialyourcl)$background-service-card-color: ;
+(tmbourcl)$background-service-card-size: ;
+$font-testimonial-type: ;
+$slide-team-color: ;
+$background-color: ;
+$backround-footer-color: ;
 
 @mixin flex {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    }
-    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
