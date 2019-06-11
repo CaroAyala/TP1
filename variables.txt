@@ -13,11 +13,12 @@ $background-service-card-size:
 $font-testimonial-type:
 $slide-team-color:
 $background-color:
-$backround-footer-color: red;
+$backround-footer-color:
 
 @mixin flex {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    }
-    
+display:flex;
+justify-content: center;
+align-items: center;
+}
+
+shadow abajo del header
