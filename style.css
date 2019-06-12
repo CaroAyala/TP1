@@ -1,5 +1,56 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+.section_why_us {
+  background-color: #1445b3;
+  height: 820px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+.section_header {
+  height: 174px; }
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  color: #283d50;
+  size: 33px;
+  line-height: 1.2;
+  text-align: center; }
+
+.subtitle {
+  font-family: "Open Sans", sans-serif;
+  color: #283d50;
+  size: 24px;
+  text-align: center;
+  color: white; }
+
+.row_why_us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between; }
+
+.why_us_box {
+  background-color: #01448b;
+  border-radius: 10px;
+  width: 320px;
+  height: 341px;
+  margin: 15px;
+  padding: 15px;
+  color: white; }
+
+.icono_box_why_us {
+  background-color: aquamarine;
+  height: 63px; }
+
+.card_txt_box_why_us {
+  background-color: aquamarine;
+  height: 246px;
+  size: 36px;
+  font-weight: 400;
+  color: white; }
+
 .section_services {
   background-color: #ecf5ff;
   height: 1500px;
@@ -8,17 +59,24 @@
 
 .section_header_services {
   color: #444444;
+<<<<<<< HEAD
   font-family: "Montserrat", sans-serif;
   margin-top: 40px;
   width: 500px;
   justify-content: center; }
   .section_header_services h1 {
     font-size: 36px;
+=======
+  font-family: "Montserrat", sans-serif; }
+  .section_header h1 {
+    font-size: 33px;
+>>>>>>> 9c1d4df0c6b773c92f6a663953fd9fecb684ebdf
     text-align: center; }
   .section_header_services p {
     font-size: 15px;
     text-align: center; }
 
+<<<<<<< HEAD
 .services_box_1,
 .services_box_2,
 .services_box_3,
@@ -34,3 +92,7 @@
 .columna_services {
   display: flex;
   flex-direction: column; }
+=======
+body {
+  margin: 0; }
+>>>>>>> 9c1d4df0c6b773c92f6a663953fd9fecb684ebdf
