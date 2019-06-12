@@ -1,26 +1,72 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 
+//background color service sirve para testimonials y our clients/main sirve para el fondo ppal/
 $font-style-title: "Montserrat", sans-serif;
 $font-style-paragraph: "Open Sans", sans-serif;
-$font-title-color: ;
-$font-menu-color: ;
-$font-menu-color-hover: ;
-$font-paragraph-color: ;
-$font-menu-size: ;
-$font-paragraph-size: ;
-$background-button-color: ;
-$background-card-color: ;
-$background-service-color: ;
-(tmbparatestimonialyourcl)$background-service-card-color: ;
-(tmbourcl)$background-service-card-size: ;
-$font-testimonial-type: ;
-$slide-team-color: ;
-$background-color: ;
-$backround-footer-color: ;
+$background-color-main: #1445b3;
+$background-color-end: #00428a;
+$background-color-service: #ecf5ff;
+$background-color-service-card: white;
+$background-color-choose-card: #01448b;
+$background-color-choose-card-hover: #003b7a;
+$font-color-title: white;
+$font-color-title-solutions: #74b5fc;
+$font-color-about-title: #283d50;
+$font-color-about-big-title: #444444;
+$font-color-subtitle: #556877;
+$font-color-menu: #004289;
+$font-color-menu-hover: #007bff;
+$font-color-paragraph: #444444;
+$font-color-sections-subtitle-hover: #007bff;
+$slide-color-team-hover: #007bff;
+$font-size-main: 18px;
+$font-size-title: 48px;
+$font-size-sections-title: 36px;
+$font-size-big-subtitle: 24px;
+$background-color-button-hover: #007bff;
+$background-color-button: #007bff;
+$background-color-button-send-hover: #003b7a;
+$background-color-button-send: #007bff;
 
 @mixin flex {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+// HEADER
+//
+// ABOUT US
+//
+// SERVICES
+.section_services {
+  background-color: $background-color-service;
+  height: 900px;
+  @include flex;
+}
+.section_header {
+  color: $font-color-about-big-title;
+  font-family: $font-style-title;
+  h1 {
+    font-size: $font-size-sections-title;
+    text-align: center;
+  }
+  p {
+    font-size: $font-size-main;
+    text-align: center;
+  }
+}
+// WHY CHOOSE US
+//
+// OUR PORTFOLIO
+//
+// TESTIMONIALS
+//
+// TEAM
+//
+// OUR CLIENTS
+//
+// CONTACT US
+//
+// FOOTER
+//
