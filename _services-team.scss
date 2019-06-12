@@ -3,16 +3,18 @@
 // SERVICES
 .section_services {
   background-color: $background-color-service;
-  height: 1500px;
+  height: 1030px;
   display: flex;
   flex-direction: column;
 }
 .section_header_services {
+  display: flex;
+  justify-content: center;
   color: $font-color-about-big-title;
   font-family: $font-style-title;
   margin-top: 40px;
+  margin-bottom: 40px;
   width: 500px;
-  justify-content: center;
   h1 {
     font-size: $font-size-sections-title;
     text-align: center;
@@ -29,10 +31,22 @@
 .services_box_5,
 .services_box_6 {
   @include services;
+  transition: all 0.5s;
 }
-.columna_services {
+.services_box_1:hover,
+.services_box_2:hover,
+.services_box_3:hover,
+.services_box_4:hover,
+.services_box_5:hover,
+.services_box_6:hover {
+  transform: translateY(-6px);
+}
+.fila_services_1,
+.fila_services_2,
+.fila_services_3 {
+  margin-bottom: 70px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-evenly;
 }
 // TEAM
 //
