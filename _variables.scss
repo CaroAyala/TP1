@@ -1,0 +1,33 @@
+//background color service sirve para testimonials y our clients/main sirve para el fondo ppal/
+$font-style-title: "Montserrat", sans-serif;
+$font-style-paragraph: "Open Sans", sans-serif;
+$background-color-main: #1445b3;
+$background-color-end: #00428a;
+$background-color-service: #ecf5ff;
+$background-color-service-card: white;
+$background-color-choose-card: #01448b;
+$background-color-choose-card-hover: #003b7a;
+$font-color-title: white;
+$font-color-title-solutions: #74b5fc;
+$font-color-about-title: #283d50;
+$font-color-about-big-title: #444444;
+$font-color-subtitle: #556877;
+$font-color-menu: #004289;
+$font-color-menu-hover: #007bff;
+$font-color-paragraph: #444444;
+$font-color-sections-subtitle-hover: #007bff;
+$slide-color-team-hover: #007bff;
+$font-size-main: 18px;
+$font-size-title: 48px;
+$font-size-sections-title: 36px;
+$font-size-big-subtitle: 24px;
+$background-color-button-hover: #007bff;
+$background-color-button: #007bff;
+$background-color-button-send-hover: #003b7a;
+$background-color-button-send: #007bff;
+
+@mixin flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

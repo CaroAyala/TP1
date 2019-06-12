@@ -1,26 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import "./_about-clients";
+@import "./_choose-contact";
+@import "./_header-portfolio";
+@import "./_services-team";
 
-$font-style-title: "Montserrat", sans-serif;
-$font-style-paragraph: "Open Sans", sans-serif;
-// $font-title-color: ;
-// $font-menu-color: ;
-// $font-menu-color-hover: ;
-// $font-paragraph-color: ;
-// $font-menu-size: ;
-// $font-paragraph-size: ;
-// $background-button-color: ;
-// $background-card-color: ;
-// $background-service-color: ;
-// (tmbparatestimonialyourcl)$background-service-card-color: ;
-// (tmbourcl)$background-service-card-size: ;
-// $font-testimonial-type: ;
-// $slide-team-color: ;
-// $background-color: #004a99;
-// $backround-footer-color: ;
+// TESTIMONIALS
+//
 
-@mixin flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+// FOOTER
+//

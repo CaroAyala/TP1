@@ -1,0 +1,22 @@
+@import "./_variables";
+
+// SERVICES
+.section_services {
+  background-color: $background-color-service;
+  height: 900px;
+  @include flex;
+}
+.section_header {
+  color: $font-color-about-big-title;
+  font-family: $font-style-title;
+  h1 {
+    font-size: $font-size-sections-title;
+    text-align: center;
+  }
+  p {
+    font-size: $font-size-main;
+    text-align: center;
+  }
+}
+// TEAM
+//
