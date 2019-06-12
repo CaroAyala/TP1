@@ -3,20 +3,36 @@
 // SERVICES
 .section_services {
   background-color: $background-color-service;
-  height: 900px;
-  @include flex;
+  height: 1500px;
+  display: flex;
+  flex-direction: column;
 }
-.section_header {
+.section_header_services {
   color: $font-color-about-big-title;
   font-family: $font-style-title;
+  margin-top: 40px;
+  width: 500px;
+  justify-content: center;
   h1 {
     font-size: $font-size-sections-title;
     text-align: center;
   }
   p {
-    font-size: $font-size-main;
+    font-size: 15px;
     text-align: center;
   }
+}
+.services_box_1,
+.services_box_2,
+.services_box_3,
+.services_box_4,
+.services_box_5,
+.services_box_6 {
+  @include services;
+}
+.columna_services {
+  display: flex;
+  flex-direction: column;
 }
 // TEAM
 //

@@ -2,17 +2,35 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 .section_services {
   background-color: #ecf5ff;
-  height: 900px;
+  height: 1500px;
   display: flex;
-  justify-content: center;
-  align-items: center; }
+  flex-direction: column; }
 
-.section_header {
+.section_header_services {
   color: #444444;
-  font-family: "Montserrat", sans-serif; }
-  .section_header h1 {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 40px;
+  width: 500px;
+  justify-content: center; }
+  .section_header_services h1 {
     font-size: 36px;
     text-align: center; }
-  .section_header p {
-    font-size: 18px;
+  .section_header_services p {
+    font-size: 15px;
     text-align: center; }
+
+.services_box_1,
+.services_box_2,
+.services_box_3,
+.services_box_4,
+.services_box_5,
+.services_box_6 {
+  width: 400px;
+  height: 170px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0px 0px 40px -20px rgba(0, 0, 0, 0.5); }
+
+.columna_services {
+  display: flex;
+  flex-direction: column; }
