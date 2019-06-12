@@ -19,7 +19,7 @@ $font-color-sections-subtitle-hover: #007bff;
 $slide-color-team-hover: #007bff;
 $font-size-main: 18px;
 $font-size-title: 48px;
-$font-size-sections-title: 36px;
+$font-size-sections-title: 33px;
 $font-size-big-subtitle: 24px;
 $background-color-button-hover: #007bff;
 $background-color-button: #007bff;
@@ -30,4 +30,17 @@ $background-color-button-send: #007bff;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@mixin titulos {
+  font-family: $font-style-title;
+  color: $font-color-about-title;
+  size: $font-size-sections-title;
+  line-height: 1.2;
+  text-align: center;
+}
+@mixin subtitulos {
+  font-family: $font-style-paragraph;
+  color: $font-color-about-title;
+  size: $font-size-big-subtitle;
+  text-align: center;
 }
