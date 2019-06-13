@@ -78,7 +78,7 @@ h1 {
 
 .section_header_services {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   color: #444444;
   font-family: "Montserrat", sans-serif;
   margin-top: 40px;
@@ -86,30 +86,44 @@ h1 {
   width: 500px; }
   .section_header_services h1 {
     font-size: 33px;
-    text-align: center; }
+    text-align: center;
+    margin-bottom: 15px; }
   .section_header_services p {
     font-size: 15px;
     text-align: center; }
 
-.services_box_1,
-.services_box_2,
-.services_box_3,
-.services_box_4,
-.services_box_5,
-.services_box_6 {
-  width: 440px;
-  height: 200px;
+.services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 430px;
+  height: 190px;
   background-color: white;
   border-radius: 15px;
   box-shadow: 0px 0px 40px -20px rgba(0, 0, 0, 0.5);
-  transition: all 0.5s; }
+  transition: all 0.4s; }
+  .services a {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    margin-right: 20px; }
+  .services a:visited {
+    color: black; }
+  .services p {
+    color: #444444;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    margin-bottom: 15px;
+    margin-left: 70px;
+    margin-right: 20px; }
 
-.services_box_1:hover,
-.services_box_2:hover,
-.services_box_3:hover,
-.services_box_4:hover,
-.services_box_5:hover,
-.services_box_6:hover {
+.box_1:hover,
+.box_2:hover,
+.box_3:hover,
+.box_4:hover,
+.box_5:hover,
+.box_6:hover {
   transform: translateY(-6px); }
 
 .fila_services_1,
