@@ -1,5 +1,24 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+.section_about_us {
+  background-color: #fff;
+  height: 2500px;
+  font-family: "Open Sans", sans-serif; }
+
+.section_header {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .section_header p {
+    font-size: 15px; }
+
+.points {
+  display: flex;
+  flex-direction: column;
+  height: 420px;
+  width: 690px;
+  background-color: blueviolet; }
+
 .section_why_us {
   background-color: #1445b3;
   height: 820px;

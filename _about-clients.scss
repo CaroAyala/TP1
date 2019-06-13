@@ -1,6 +1,28 @@
 @import "./_variables";
 
 // ABOUT US
+.section_about_us {
+    background-color: #fff;
+    height: 2500px;
+    font-family: $font-style-paragraph;
+}    
+.section_header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p {
+    font-size: 15px;
+    }
+}
+.points {
+    display: flex;
+    flex-direction: column;
+    height: 420px;
+    width: 690px;
+    background-color: blueviolet;
+
+}
+
 //
 // OUR CLIENTS
 //
