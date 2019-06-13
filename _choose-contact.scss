@@ -1,0 +1,46 @@
+@import "./_variables";
+
+// WHY CHOOSE US
+.section_why_us {
+  background-color: $background-color-main;
+  height: 820px;
+  @include flex;
+  flex-direction: column;
+}
+.section_header {
+  height: 174px;
+}
+h1 {
+  @include titulos;
+}
+.subtitle {
+  @include subtitulos;
+  color: $font-color-title;
+}
+.row_why_us {
+  @include flex;
+  justify-content: space-between;
+}
+.why_us_box {
+  background-color: $background-color-choose-card;
+  border-radius: 10px;
+  width: 320px;
+  height: 341px;
+  margin: 15px;
+  padding: 15px;
+  color: $background-color-service-card;
+}
+.icono_box_why_us {
+  background-color: aquamarine;
+  height: 63px;
+}
+.card_txt_box_why_us {
+  background-color: aquamarine;
+  height: 246px;
+  size: 36px;
+  font-weight: 400;
+  color: $font-color-title;
+}
+//
+// CONTACT US
+//
