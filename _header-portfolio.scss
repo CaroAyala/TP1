@@ -19,12 +19,16 @@
 }
 
 .menu_bar {
+    height: 100px;
 
 }
 
 .menu_botonera {
 float: right;
- 
+height: 100px;
+
+
+
 }
 
 .menu_botonera ul {
@@ -37,6 +41,7 @@ float: right;
     display: block;
     width: 67px;
     overflow: hidden;
+
 }
 
 ul li {
@@ -52,15 +57,16 @@ ul li a {
     color: $font-color-menu;
     text-decoration: none;
     float:left;
+
     }
 
 ul li a:hover{
     color: $font-color-menu-hover;
 }
 
-
-
-
+.banner_intro{
+    height: 700px;
+}
 
 
 

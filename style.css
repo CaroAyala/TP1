@@ -112,8 +112,12 @@
   position: fixed;
   z-index: 100; }
 
+.menu_bar {
+  height: 100px; }
+
 .menu_botonera {
-  float: right; }
+  float: right;
+  height: 100px; }
 
 .menu_botonera ul {
   list-style: none;
