@@ -1,6 +1,71 @@
 @import "./_variables";
 
-// HEADER
-//
-// OUR PORTFOLIO
-//
+// HEADER //
+.section_header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+.section_header p {
+    font-size: 15px;  
+}
+
+.header{
+    background-color: $background-color-service-card;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+.menu_bar {
+
+}
+
+.menu_botonera {
+float: right;
+ 
+}
+
+.menu_botonera ul {
+    list-style: none;
+    overflow: hidden;
+} 
+
+.menu_logo img {
+    float: left;
+    display: block;
+    width: 67px;
+    overflow: hidden;
+}
+
+ul li {
+    float: left;
+    font-family: $font-style-paragraph;
+    font-size: 14px;
+
+}
+
+ul li a {
+    display: block;
+    padding: 3px;
+    color: $font-color-menu;
+    text-decoration: none;
+    float:left;
+    }
+
+ul li a:hover{
+    color: $font-color-menu-hover;
+}
+
+
+
+
+
+
+
+
+
+
+// OUR PORTFOLIO //
+
