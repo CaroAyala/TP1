@@ -7,7 +7,7 @@ $background-color-service: #ecf5ff;
 $background-color-service-card: white;
 $background-color-choose-card: #01448b;
 $background-color-choose-card-hover: #003b7a;
-$font-color-title: white;
+$font-color-title: #ffffff;
 $font-color-title-solutions: #74b5fc;
 $font-color-about-title: #283d50;
 $font-color-about-big-title: #444444;
@@ -40,14 +40,20 @@ $background-color-button-send: #007bff;
 }
 @mixin titulos {
   font-family: $font-style-title;
-  color: $font-color-about-title;
-  size: $font-size-sections-title;
+  color: $font-color-title;
+  font-size: $font-size-sections-title;
   line-height: 1.2;
   text-align: center;
 }
 @mixin subtitulos {
   font-family: $font-style-paragraph;
-  color: $font-color-about-title;
-  size: $font-size-big-subtitle;
+  color: $font-color-title;
+  font-size: $font-size-main;
+  text-align: center;
+}
+@mixin card {
+  font-family: $font-style-title;
+  font-size: 20px;
+  color: $font-color-title;
   text-align: center;
 }

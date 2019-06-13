@@ -3,19 +3,22 @@
 // WHY CHOOSE US
 .section_why_us {
   background-color: $background-color-main;
-  height: 820px;
+  height: 700px;
   @include flex;
   flex-direction: column;
 }
-.section_header {
+.section_header_why_us {
   height: 174px;
 }
-h1 {
+.titulo-wcu {
+  height: 50px;
+  margin-bottom: 20px;
   @include titulos;
+  font-weight: 600;
 }
-.subtitle {
+.subtitle-wcu {
   @include subtitulos;
-  color: $font-color-title;
+  font-size: 16px;
 }
 .row_why_us {
   @include flex;
@@ -24,23 +27,41 @@ h1 {
 .why_us_box {
   background-color: $background-color-choose-card;
   border-radius: 10px;
-  width: 320px;
-  height: 341px;
+  width: 250px;
+  height: 300px;
   margin: 15px;
   padding: 15px;
   color: $background-color-service-card;
+  transition: all 0.8s;
+}
+.why_us_box:hover {
+  background-color: #043161;
 }
 .icono_box_why_us {
-  background-color: aquamarine;
   height: 63px;
 }
 .card_txt_box_why_us {
-  background-color: aquamarine;
-  height: 246px;
-  size: 36px;
-  font-weight: 400;
-  color: $font-color-title;
+  height: 200px;
 }
+.tittle_box_why_us {
+  @include card;
+  font-size: 20px;
+  font-weight: 600;
+}
+.description_txt_why_us {
+  @include card;
+  font-size: 15px;
+}
+.read_txt_why_us {
+  margin-top: 50px;
+  @include card;
+  font-size: 15px;
+  font-weight: 600;
+  transition: all 0.8s;
+}
+// .read_txt_why_us:hover {
+//   text-decoration: underline;
+// }
 //
 // CONTACT US
 //
