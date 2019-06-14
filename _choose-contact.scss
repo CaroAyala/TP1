@@ -9,14 +9,14 @@
   height: auto;
 }
 .titulo-wcu {
-  height: 50px;
-  margin-bottom: 20px;
+  margin: 50px 0px 20px 0px;
   @include titulos;
   font-weight: 600;
 }
 .subtitle-wcu {
   @include subtitulos;
   font-size: 16px;
+  margin-bottom: 30px;
 }
 .row_why_us {
   @include flex;
@@ -25,8 +25,8 @@
 .why_us_box {
   background-color: $background-color-choose-card;
   border-radius: 10px;
-  width: 250px;
-  height: 300px;
+  width: 290px;
+  height: 270px;
   margin: 25px;
   padding: 15px;
   color: $background-color-service-card;
@@ -37,33 +37,38 @@
 }
 .icono_box_why_us {
   height: 63px;
+  margin: 10px 0px 10px 0px;
   font-family: $font-style-title;
   color: #aed0f3;
   text-align: center;
-  font-size: 45px;
+  font-size: 50px;
 }
 .card_txt_box_why_us {
-  height: 200px;
-}
-.tittle_box_why_us {
+  padding: 5px;
+  height: 190px;
+  line-height: 1.5;
   @include card;
-  font-size: 20px;
-  font-weight: 600;
+  .tittle_box_why_us {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .description_txt_why_us {
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .read_more_why_us {
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    color: $font-color-title;
+    font-weight: 700;
+    text-align: center;
+    transition: all 0.8s;
+  }
 }
-.description_txt_why_us {
-  @include card;
-  font-size: 15px;
-}
-.read_txt_why_us {
-  margin-top: 50px;
-  border: 0px;
-  @include card;
-  font-size: 15px;
-  font-weight: 600;
-  transition: all 0.8s;
-}
-.read_txt_why_us:hover {
-  text-decoration: underline;
+.read_more_why_us:hover {
+  padding: 2px;
+  border-bottom: 2px solid $font-color-title;
 }
 .counter_container {
   height: 130px;
@@ -81,10 +86,11 @@
 //
 // CONTACT US
 .section_contact_us {
-  height: 500px;
+  height: 560px;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
   padding: 60px 0;
-  @include flex;
+  // display: flex;
+  flex-direction: column;
 }
 .section_header_contact_us {
   height: auto;
@@ -92,20 +98,48 @@
   color: $font-color-about-title;
 }
 .mapa-formulario-contacto {
-  @include flex;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+.mapa {
+  width: 700px;
+}
+.datos_contact_us {
+  width: 700px;
+}
+.datos-row {
+  margin-right: 20px;
+  width: 700px;
+  display: flex;
   justify-content: space-between;
 }
-.mapouter {
-  position: relative;
-  text-align: right;
-  height: 200px;
-  width: 600px;
+.minibox_contact_us {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-around;
+  i {
+    color: $background-color-button;
+    font-size: 22px;
+    margin-right: 10px;
+  }
+  p {
+    font-family: $font-style-paragraph;
+    font-size: 16px;
+    color: $font-color-about-big-title;
+  }
 }
-.gmap_canvas {
-  overflow: hidden;
-  background: none !important;
-  height: 500px;
-  width: 600px;
+.formulario_contact_us {
+  width: 100%;
+  height: 250px;
 }
 
+//
+// FOOTER
+footer {
+  height: 400px;
+  background-color: $background-color-main;
+  @include flex;
+}
 //
