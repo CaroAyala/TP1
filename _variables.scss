@@ -25,6 +25,7 @@ $background-color-button-hover: #007bff;
 $background-color-button: #007bff;
 $background-color-button-send-hover: #003b7a;
 $background-color-button-send: #007bff;
+$icon-color-fondo-oscuro: #aed0f3;
 
 @mixin flex {
   display: flex;
@@ -53,7 +54,6 @@ $background-color-button-send: #007bff;
 }
 @mixin card {
   font-family: $font-style-title;
-  font-size: 20px;
   color: $font-color-title;
   text-align: center;
 }

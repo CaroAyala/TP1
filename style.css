@@ -28,7 +28,7 @@
   flex-direction: column; }
 
 .section_header_why_us {
-  height: 174px; }
+  height: auto; }
 
 .titulo-wcu {
   height: 50px;
@@ -58,7 +58,7 @@
   border-radius: 10px;
   width: 250px;
   height: 300px;
-  margin: 15px;
+  margin: 25px;
   padding: 15px;
   color: white;
   transition: all 0.8s; }
@@ -67,14 +67,17 @@
   background-color: #043161; }
 
 .icono_box_why_us {
-  height: 63px; }
+  height: 63px;
+  font-family: "Montserrat", sans-serif;
+  color: #aed0f3;
+  text-align: center;
+  font-size: 45px; }
 
 .card_txt_box_why_us {
   height: 200px; }
 
 .tittle_box_why_us {
   font-family: "Montserrat", sans-serif;
-  font-size: 20px;
   color: #ffffff;
   text-align: center;
   font-size: 20px;
@@ -82,20 +85,76 @@
 
 .description_txt_why_us {
   font-family: "Montserrat", sans-serif;
-  font-size: 20px;
   color: #ffffff;
   text-align: center;
   font-size: 15px; }
 
 .read_txt_why_us {
   margin-top: 50px;
+  border: 0px;
   font-family: "Montserrat", sans-serif;
-  font-size: 20px;
   color: #ffffff;
   text-align: center;
   font-size: 15px;
   font-weight: 600;
   transition: all 0.8s; }
+
+.read_txt_why_us:hover {
+  text-decoration: underline; }
+
+.counter_container {
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700; }
+
+.counter_box {
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  text-align: center;
+  margin: 0 90px;
+  font-size: 48px;
+  font-weight: 700; }
+
+.section_contact_us {
+  height: 500px;
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  padding: 60px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.section_header_contact_us {
+  height: auto;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 33px;
+  line-height: 1.2;
+  text-align: center;
+  color: #283d50; }
+
+.mapa-formulario-contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between; }
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 200px;
+  width: 600px; }
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 600px; }
 
 .section_services {
   background-color: #ecf5ff;
