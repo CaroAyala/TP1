@@ -4,8 +4,8 @@
 .section_about_us {
     background-color: #fff;
     height: 2500px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
     font-family: $font-style-paragraph;
 
 }    
@@ -17,13 +17,43 @@
     font-size: 15px;
     }
 }
+.container_puntos_imagen {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.img_container_about_1 {
+    display: flex;
+    
+    height: 400px;
+    width: 650px;
+}
+.img_container_about_1 img {
+    width: 100%;
+    height: auto;
+}
 .points {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     height: 420px;
     width: 690px;
-    
+    padding-top: 40px;
+    .icon_box {
+        font-size: 24px;
+        color: $background-color-button;
+        border-radius: 100px;
+        border: solid 3px #007bff;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+               
+         
+    }
+  
 }
+
 
 //
 // OUR CLIENTS
