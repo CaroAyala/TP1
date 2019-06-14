@@ -3,6 +3,8 @@
 .section_about_us {
   background-color: #fff;
   height: 2500px;
+  padding-left: 80px;
+  padding-right: 80px;
   font-family: "Open Sans", sans-serif; }
 
 .section_header {
@@ -12,12 +14,36 @@
   .section_header p {
     font-size: 15px; }
 
+.container_puntos_imagen {
+  display: flex;
+  flex-direction: row-reverse; }
+
+.img_container_about_1 {
+  display: flex;
+  height: 400px;
+  width: 650px; }
+
+.img_container_about_1 img {
+  width: 100%;
+  height: auto; }
+
 .points {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   height: 420px;
   width: 690px;
-  background-color: blueviolet; }
+  padding-top: 40px; }
+  .points .icon_box {
+    font-size: 24px;
+    color: #007bff;
+    border-radius: 100px;
+    border: solid 3px #007bff;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
 
 .section_why_us {
   background-color: #1445b3;
@@ -97,6 +123,71 @@
   font-weight: 600;
   transition: all 0.8s; }
 
+* {
+  margin: 0;
+  padding: 0; }
+
+.section_header {
+  display: flex;
+  justify-content: center; }
+
+.section_header p {
+  font-size: 15px; }
+
+.header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: sticky;
+  z-index: 100; }
+
+.menu_bar {
+  padding: 0;
+  margin-top: 0;
+  margin-left: 0;
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  background-color: white; }
+
+.menu_botonera {
+  height: 80px; }
+
+.menu_botonera ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  overflow: hidden; }
+
+.menu_logo img {
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+  width: 67px;
+  overflow: hidden;
+  margin: 7px 0 7px 0; }
+
+ul li {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px; }
+
+ul li a {
+  display: flex;
+  padding: 3px;
+  color: #004289;
+  text-decoration: none;
+  justify-content: flex-end;
+  align-items: center; }
+
+ul li a:hover {
+  color: #007bff; }
+
+.banner_intro {
+  height: 634.047px;
+  width: 1349px;
+  padding: 200px 0 120px 0;
+  background-color: #1445b3; }
+
 .section_services {
   display: flex;
   flex-direction: column;
@@ -158,7 +249,11 @@
 
 .cajas {
   display: flex;
+<<<<<<< HEAD
   flex-direction: column; }
 
 body {
   margin: 0; }
+=======
+  justify-content: space-evenly; }
+>>>>>>> cfff0bd5c6d7e22110522e5a7145f06db71829f5
