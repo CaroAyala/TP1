@@ -3,6 +3,8 @@
 .section_about_us {
   background-color: #fff;
   height: 2500px;
+  padding-left: 30px;
+  padding-right: 30px;
   font-family: "Open Sans", sans-serif; }
 
 .section_header {
@@ -16,8 +18,7 @@
   display: flex;
   flex-direction: column;
   height: 420px;
-  width: 690px;
-  background-color: blueviolet; }
+  width: 690px; }
 
 .section_why_us {
   background-color: #1445b3;

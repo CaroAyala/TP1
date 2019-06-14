@@ -4,7 +4,10 @@
 .section_about_us {
     background-color: #fff;
     height: 2500px;
+    padding-left: 30px;
+    padding-right: 30px;
     font-family: $font-style-paragraph;
+
 }    
 .section_header {
     display: flex;
@@ -19,8 +22,7 @@
     flex-direction: column;
     height: 420px;
     width: 690px;
-    background-color: blueviolet;
-
+    
 }
 
 //
