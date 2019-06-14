@@ -2,13 +2,14 @@
 
 // SERVICES
 .section_services {
-  background-color: $background-color-service;
-  height: 1030px;
   display: flex;
   flex-direction: column;
+  background-color: $background-color-service;
+  height: 1500px;
 }
 .section_header_services {
   display: flex;
+  align-self: center;
   flex-direction: column;
   color: $font-color-about-big-title;
   font-family: $font-style-title;
@@ -18,25 +19,42 @@
   h1 {
     font-size: $font-size-sections-title;
     text-align: center;
-    margin-bottom: 15px;
   }
   p {
     font-size: 15px;
     text-align: center;
   }
 }
+//
+// .cajas {
+//   display: flex;
+//   flex-direction: row;
+// }
+.contenedor-caja {
+  @include services;
+  display: flex;
+  position: relative;
+  transition: all 0.4s;
+  a:hover {
+    color: $font-color-menu-hover;
+  } //no funciona
+}
+.contenedor-caja:hover {
+  transform: translateY(-6px);
+}
 .services {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  @include services;
-  transition: all 0.4s;
+  position: relative;
+  width: 100%;
+  height: auto;
+
   a {
     font-family: $font-style-title;
     font-size: $font-size-main;
     text-decoration: none;
-    margin-right: 20px;
+    margin-left: 80px;
   }
   a:visited {
     color: black;
@@ -46,24 +64,13 @@
     font-family: $font-style-paragraph;
     font-size: 14px;
     margin-bottom: 15px;
-    margin-left: 70px;
+    margin-left: 80px;
     margin-right: 20px;
   }
 }
-.box_1:hover,
-.box_2:hover,
-.box_3:hover,
-.box_4:hover,
-.box_5:hover,
-.box_6:hover {
-  transform: translateY(-6px);
-}
-.fila_services_1,
-.fila_services_2,
-.fila_services_3 {
-  margin-bottom: 70px;
+.cajas {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
 }
 // TEAM
 //
