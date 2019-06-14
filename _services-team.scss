@@ -5,7 +5,7 @@
   display: flex;
   flex-direction: column;
   background-color: $background-color-service;
-  height: 1500px;
+  height: 1200px;
 }
 .section_header_services {
   display: flex;
@@ -25,11 +25,6 @@
     text-align: center;
   }
 }
-//
-// .cajas {
-//   display: flex;
-//   flex-direction: row;
-// }
 .contenedor-caja {
   @include services;
   display: flex;
@@ -38,6 +33,11 @@
   a:hover {
     color: $font-color-menu-hover;
   } //no funciona
+}
+.cajas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 .contenedor-caja:hover {
   transform: translateY(-6px);
@@ -67,10 +67,6 @@
     margin-left: 80px;
     margin-right: 20px;
   }
-}
-.cajas {
-  display: flex;
-  flex-direction: column;
 }
 // TEAM
 //

@@ -192,7 +192,7 @@ ul li a:hover {
   display: flex;
   flex-direction: column;
   background-color: #ecf5ff;
-  height: 1500px; }
+  height: 1200px; }
 
 .section_header_services {
   display: flex;
@@ -222,6 +222,11 @@ ul li a:hover {
   .contenedor-caja a:hover {
     color: #007bff; }
 
+.cajas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; }
+
 .contenedor-caja:hover {
   transform: translateY(-6px); }
 
@@ -246,14 +251,3 @@ ul li a:hover {
     margin-bottom: 15px;
     margin-left: 80px;
     margin-right: 20px; }
-
-.cajas {
-  display: flex;
-<<<<<<< HEAD
-  flex-direction: column; }
-
-body {
-  margin: 0; }
-=======
-  justify-content: space-evenly; }
->>>>>>> cfff0bd5c6d7e22110522e5a7145f06db71829f5
