@@ -1,43 +1,51 @@
 // SERVICES
-.section_services {
+.services-section {
   display: flex;
   flex-direction: column;
   background-color: $background-color-service;
-  height: 1200px;
+  height: 900px;
 }
-.section_header_services {
+.header-services {
   display: flex;
   align-self: center;
   flex-direction: column;
   color: $font-color-about-big-title;
   font-family: $font-style-title;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   width: 500px;
-  h1 {
+  .titulo-services {
     font-size: $font-size-sections-title;
     text-align: center;
+    font-weight: 400;
   }
-  p {
+  .subtitulo-services {
     font-size: 15px;
     text-align: center;
   }
 }
-.contenedor-caja {
+.icon-services {
+  font-size: 20px;
+}
+.description_txt_services_box {
+  line-height: 1.8;
+}
+.title-services-box {
+  font-weight: 700;
+}
+.services-boxes-card {
   @include services;
   display: flex;
-  position: relative;
   transition: all 0.4s;
-  a:hover {
-    color: $font-color-menu-hover;
-  } //no funciona
+  margin-top: 30px;
 }
-.cajas {
+.services-boxes {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  padding: 0px 100px;
 }
-.contenedor-caja:hover {
+.services-boxes-card:hover {
   transform: translateY(-6px);
 }
 .services {
@@ -67,4 +75,3 @@
   }
 }
 // TEAM
-//
