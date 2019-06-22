@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   background-color: $background-color-service;
-  height: 900px;
+  height: auto;
 }
 .header-services {
   display: flex;
@@ -17,36 +17,26 @@
   .titulo-services {
     font-size: $font-size-sections-title;
     text-align: center;
-    font-weight: 400;
+    font-weight: 600;
+    margin-bottom: 20px;
   }
   .subtitulo-services {
     font-size: 15px;
     text-align: center;
   }
 }
-.icon-services {
-  font-size: 20px;
-}
-.description_txt_services_box {
-  line-height: 1.8;
-}
-.title-services-box {
-  font-weight: 700;
+.services-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 0px 0px 100px 150px;
+  max-width: 1024px;
 }
 .services-boxes-card {
   @include services;
   display: flex;
   transition: all 0.4s;
   margin-top: 30px;
-}
-.services-boxes {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  padding: 0px 100px;
-}
-.services-boxes-card:hover {
-  transform: translateY(-6px);
 }
 .services {
   display: flex;
@@ -55,23 +45,63 @@
   position: relative;
   width: 100%;
   height: auto;
+  margin-top: 20px;
+  overflow: hidden;
 
-  a {
+  .title-services-box-a {
     font-family: $font-style-title;
     font-size: $font-size-main;
     text-decoration: none;
     margin-left: 80px;
-  }
-  a:visited {
     color: black;
   }
-  p {
+  .description_txt_services_box {
     color: $font-color-paragraph;
     font-family: $font-style-paragraph;
     font-size: 14px;
-    margin-bottom: 15px;
-    margin-left: 80px;
-    margin-right: 20px;
+    margin: 15px 20px 15px 80px;
   }
 }
+.icon-services {
+  font-size: 70px;
+  position: absolute;
+  top: 40px;
+  left: -20px;
+}
+.icon-services.box {
+  &-1 {
+    color: rgb(228, 135, 166);
+  }
+  &-2 {
+    color: rgb(218, 176, 63);
+  }
+  &-3 {
+    color: rgb(73, 174, 221);
+  }
+  &-4 {
+    color: rgb(29, 216, 54);
+  }
+  &-5 {
+    color: rgb(219, 255, 59);
+  }
+  &-6 {
+    color: rgb(59, 45, 185);
+  }
+}
+.title-services-box {
+  font-weight: 700;
+}
+.title-services-box-a {
+  transition: all 0.4s;
+}
+.description_txt_services_box {
+  line-height: 1.8;
+}
+.services-boxes-card:hover {
+  transform: translateY(-6px);
+  .title-services-box-a {
+    color: $font-color-menu-hover;
+  }
+}
+
 // TEAM
