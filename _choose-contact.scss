@@ -106,27 +106,28 @@
 }
 .contact-us-container-map-form {
   display: flex;
-  justify-content: space-evenly;
   margin-top: 40px;
 }
 .map {
   width: 50%;
-  margin: 0 20px 0 20px;
+  margin: 0 15px 0 20px;
 }
 .contact-us-container-form {
   width: 50%;
-  margin: 0 20px 0 20px;
+  margin: 0 20px 0 15px;
 }
 .contact-us-form-header {
-  width: 100%;
+  width: 98%;
   display: flex;
   justify-content: space-between;
 }
 .contact-us-minibox-form {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   display: flex;
-  flex: 1;
-  text-align: center;
+  font-family: $font-style-paragraph;
+  font-size: 16px;
+  color: $font-color-about-big-title;
+  text-align: right;
   .fa-map-marker-alt,
   .fa-envelope,
   .fa-phone {
@@ -134,22 +135,50 @@
     font-size: 22px;
     margin-right: 5px;
   }
-  .minibox-contact-us-text {
+}
+.contact-us-form-data {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact-us-form-data-name-email,
+.contact-us-form-data-subject,
+.contact-us-form-data-message {
+  @include contact-us-form-data;
+}
+.input-field {
+  @include contact-us-input;
+}
+.input-field-message {
+  @include contact-us-input;
+  height: 80px;
+}
+.contact-us-form-data-button {
+  display: flex;
+  justify-content: center;
+  .button-form {
+    width: 170px;
+    height: 40px;
+    background-color: $background-color-button;
+    border: 0;
+    border-radius: 20px;
+    padding: 8px 30px;
     font-family: $font-style-paragraph;
-    font-size: 16px;
-    color: $font-color-about-big-title;
+    color: $font-color-title;
+    font-size: 15px;
+    text-align: center;
+    transition: 0.3s;
   }
 }
-.formulario_datos {
-  height: 250px;
-  border: none;
+.button-form:hover {
+  background-color: $background-color-main;
 }
-.formulario_contact_us {
-  width: 100%;
-  height: 250px;
-}
-.formulario_datos_nombre {
-  width: 100%;
-  height: 50px;
+// FOOTER ⁄⁄
+.section-footer {
+  background-color: $background-color-main;
+  height: auto;
   display: flex;
+  justify-content: center;
 }
