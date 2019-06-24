@@ -45,27 +45,25 @@
     align-items: center;
     justify-content: center; }
 
-.section_why_us {
+.section-why-us {
   background-color: #1445b3;
-  height: 700px;
+  height: auto;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column; }
+  justify-content: center; }
 
-.section_header_why_us {
-  height: auto; }
+.why-us-header {
+  margin: 50px 0px 20px 0px; }
 
-.titulo-wcu {
-  margin: 50px 0px 20px 0px;
+.why-us-header-title {
   font-family: "Montserrat", sans-serif;
   color: #ffffff;
   font-size: 33px;
   line-height: 1.2;
   text-align: center;
-  font-weight: 600; }
+  font-weight: 600;
+  padding: 15px 0px 30px 0px; }
 
-.subtitle-wcu {
+.why-us-header-subtitle {
   font-family: "Open Sans", sans-serif;
   color: #ffffff;
   font-size: 18px;
@@ -73,26 +71,26 @@
   font-size: 16px;
   margin-bottom: 30px; }
 
-.row_why_us {
+.why-us-container-boxes {
   display: flex;
   justify-content: center;
   align-items: center;
   justify-content: space-between; }
 
-.why_us_box {
+.why-us-box {
   background-color: #01448b;
   border-radius: 10px;
   width: 290px;
   height: 270px;
   margin: 25px;
   padding: 15px;
-  color: white;
+  color: #ffffff;
   transition: all 0.8s; }
 
-.why_us_box:hover {
+.why-us-box:hover {
   background-color: #043161; }
 
-.icono_box_why_us {
+.icono-box-why-us {
   height: 63px;
   margin: 10px 0px 10px 0px;
   font-family: "Montserrat", sans-serif;
@@ -100,21 +98,21 @@
   text-align: center;
   font-size: 50px; }
 
-.card_txt_box_why_us {
+.why-us-box-body {
   padding: 5px;
   height: 190px;
   line-height: 1.5;
   font-family: "Montserrat", sans-serif;
   color: #ffffff;
   text-align: center; }
-  .card_txt_box_why_us .tittle_box_why_us {
+  .why-us-box-body .why-us-tittle-box-body {
     font-size: 20px;
     font-weight: 600; }
-  .card_txt_box_why_us .description_txt_why_us {
+  .why-us-box-body .why-us-text-box-body {
     font-size: 15px;
     margin-top: 20px;
     margin-bottom: 20px; }
-  .card_txt_box_why_us .read_more_why_us {
+  .why-us-box-body .why-us-read-more-box-body {
     text-decoration: none;
     border-bottom: 2px solid transparent;
     color: #ffffff;
@@ -122,12 +120,13 @@
     text-align: center;
     transition: all 0.8s; }
 
-.read_more_why_us:hover {
+.why-us-read-more-box-body:hover {
   padding: 2px;
   border-bottom: 2px solid #ffffff; }
 
-.counter_container {
+.why-us-counter-container {
   height: 130px;
+  padding-bottom: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -137,7 +136,7 @@
   font-size: 48px;
   font-weight: 700; }
 
-.counter_box {
+.why-us-counter-box {
   font-family: "Montserrat", sans-serif;
   color: #ffffff;
   text-align: center;
@@ -145,62 +144,73 @@
   font-size: 48px;
   font-weight: 700; }
 
-.section_contact_us {
+.section-contact-us {
+  background-color: #ffffff;
   height: 560px;
-  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.2); }
+
+.contact-us-container-info {
+  max-width: 100%;
   padding: 60px 0;
+  display: flex;
   flex-direction: column; }
 
-.section_header_contact_us {
-  height: auto;
-  font-family: "Montserrat", sans-serif;
-  color: #ffffff;
-  font-size: 33px;
-  line-height: 1.2;
-  text-align: center;
-  color: #283d50; }
+.contact-us-header {
+  height: auto; }
+  .contact-us-header .contact-us-header-title {
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 33px;
+    line-height: 1.2;
+    text-align: center;
+    color: #283d50; }
 
-.mapa-formulario-contacto {
-  height: 400px;
+.contact-us-container-map-form {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin-top: 40px; }
 
-.mapa {
-  width: 700px; }
+.map {
+  width: 50%;
+  margin: 0 20px 0 20px; }
 
-.datos_contact_us {
-  width: 700px; }
+.contact-us-container-form {
+  width: 50%;
+  margin: 0 20px 0 20px; }
 
-.datos-row {
-  margin-right: 20px;
-  width: 700px;
+.contact-us-form-header {
+  width: 100%;
   display: flex;
   justify-content: space-between; }
 
-.minibox_contact_us {
+.contact-us-minibox-form {
   margin-bottom: 50px;
   display: flex;
-  justify-content: space-around; }
-  .minibox_contact_us i {
+  flex: 1;
+  text-align: center; }
+  .contact-us-minibox-form .fa-map-marker-alt,
+  .contact-us-minibox-form .fa-envelope,
+  .contact-us-minibox-form .fa-phone {
     color: #007bff;
     font-size: 22px;
-    margin-right: 10px; }
-  .minibox_contact_us p {
+    margin-right: 5px; }
+  .contact-us-minibox-form .minibox-contact-us-text {
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
     color: #444444; }
+
+.formulario_datos {
+  height: 250px;
+  border: none; }
 
 .formulario_contact_us {
   width: 100%;
   height: 250px; }
 
-footer {
-  height: 400px;
-  background-color: #1445b3;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+.formulario_datos_nombre {
+  width: 100%;
+  height: 50px;
+  display: flex; }
 
 * {
   margin: 0;
@@ -227,7 +237,7 @@ footer {
   width: 100%;
   height: 100px;
   position: fixed;
-  background-color: white; }
+  background-color: #ffffff; }
 
 .menu_botonera {
   height: 80px; }
@@ -292,7 +302,7 @@ ul li a:hover {
 .contenedor-caja {
   width: 430px;
   height: 180px;
-  background-color: white;
+  background-color: #ffffff;
   border-radius: 15px;
   box-shadow: 0px 0px 40px -20px rgba(0, 0, 0, 0.5);
   display: flex;
@@ -334,4 +344,8 @@ ul li a:hover {
 body {
   margin: 0;
   padding: 0;
+  height: auto; }
+
+.section {
+  max-width: 1140px;
   height: auto; }
