@@ -136,6 +136,7 @@
 }
 .team-avatar-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   padding: 0px 100px 90px 100px;
 }
@@ -152,7 +153,7 @@
 }
 .team-avatar-text {
   transition: all 0.7s;
-  transform: translateY(150px);
+  transform: translateY(250px);
   text-align: center;
   color: whitesmoke;
   line-height: 1.2;
@@ -192,4 +193,12 @@
 }
 .avatar4 {
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNp0KGabszKxU0uZUVAVzYAq1kwQv7PqvbZxXeVLwbI1oZl6zxYQ);
+}
+@media (max-width: 890px) {
+  .team-avatar-img {
+    width: 310px;
+    height: 310px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
 }
