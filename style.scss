@@ -12,8 +12,57 @@ body {
   height: auto;
 }
 
+.section {
+  max-width: 1140px;
+  height: auto;
+}
+
 // TESTIMONIALS
 //
-
-// FOOTER
-//
+.testimonials-section {
+  background-color: $background-color-service;
+  display: flex;
+}
+.titulo-testimonials {
+  font-family: $font-style-title;
+  font-size: $font-size-sections-title;
+  font-weight: 500;
+}
+.slider-testimonials-container {
+  display: flex;
+}
+.slider-testimonials {
+  width: 750px;
+  overflow-x: hidden;
+  display: flex;
+}
+.slide-testimonials {
+  width: 750px;
+  font-family: $font-style-title;
+  list-style: none;
+}
+.img-testimonials {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+}
+.titulo-slide-testimonials {
+  font-size: 20px;
+  font-weight: 600;
+}
+.subtitulo-slide-testimonials {
+  font-size: 14px;
+  color: #999999;
+}
+.texto-slide-testimonials {
+}
+.button-testimonials {
+  display: flex;
+  justify-content: space-evenly;
+  height: 10px;
+  width: 10px;
+  background-color: rgb(202, 202, 202);
+  border-radius: 50%;
+}

@@ -4,7 +4,7 @@ $font-style-paragraph: "Open Sans", sans-serif;
 $background-color-main: #1445b3;
 $background-color-end: #00428a;
 $background-color-service: #ecf5ff;
-$background-color-service-card: white;
+$background-color-service-card: #ffffff;
 $background-color-choose-card: #01448b;
 $background-color-choose-card-hover: #003b7a;
 $font-color-title: #ffffff;
@@ -26,6 +26,8 @@ $background-color-button: #007bff;
 $background-color-button-send-hover: #003b7a;
 $background-color-button-send: #007bff;
 $icon-color-fondo-oscuro: #aed0f3;
+$border-form: #ced4da;
+$border-form-hover: #007bff;
 
 @mixin flex {
   display: flex;
@@ -62,4 +64,18 @@ $icon-color-fondo-oscuro: #aed0f3;
   font-family: $font-style-title;
   color: $font-color-title;
   text-align: center;
+}
+@mixin contact-us-form-data {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+@mixin contact-us-input {
+  width: 100%;
+  height: 20px;
+  border: 1px solid $border-form;
+  font-size: 13px;
+  padding: 8px;
+  margin: 0px 10px 20px 0px;
 }
