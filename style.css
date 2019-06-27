@@ -17,9 +17,11 @@
 .tittle_about_us {
   font-size: 34px; }
 
-.container_puntos_imagen {
-  display: flex;
-  flex-direction: row-reverse; }
+.text_tittle_about_us {
+  padding-top: 40px; }
+
+.container_points_img {
+  display: flex; }
 
 .img_container_about_1 {
   display: flex;
@@ -32,12 +34,10 @@
 
 .points {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: space-between;
-  height: 420px;
-  width: 690px;
   padding-top: 40px; }
-  .points .icon_box {
+  .points .icon_box_points {
     font-size: 24px;
     color: #007bff;
     border-radius: 100px;
@@ -47,6 +47,14 @@
     display: flex;
     align-items: center;
     justify-content: center; }
+
+.text_box_points {
+  display: flex;
+  font-size: 16px;
+  color: #556877; }
+
+.tittle_icon_box_points {
+  color: #556877; }
 
 .section_why_us {
   background-color: #1445b3;

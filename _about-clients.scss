@@ -17,12 +17,14 @@
 }
 .tittle_about_us {
     font-size: 34px;
-
-
+    
 }
-.container_puntos_imagen {
+.text_tittle_about_us {
+  padding-top: 40px;
+}
+.container_points_img {
   display: flex;
-  flex-direction: row-reverse;
+  
 }
 .img_container_about_1 {
   display: flex;
@@ -35,12 +37,12 @@
 }
 .points {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: space-between;
-  height: 420px;
-  width: 690px;
+    // height: 420px;
+  // width: 690px;
   padding-top: 40px;
-  .icon_box {
+  .icon_box_points {
     font-size: 24px;
     color: $background-color-button;
     border-radius: 100px;
@@ -50,7 +52,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+    
+    }
+}
+.text_box_points {
+  display: flex;
+  font-size: 16px;
+  color: $font-color-subtitle;
+  
+  
+}
+.tittle_icon_box_points {
+  color: $font-color-subtitle;
 }
 
 //
