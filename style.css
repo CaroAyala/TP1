@@ -5,18 +5,23 @@
   height: 2500px;
   padding-left: 80px;
   padding-right: 80px;
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Montserrat", sans-serif; }
 
-.section_header {
+.section_header_about_us {
+  padding-top: 50px;
   display: flex;
   flex-direction: column;
-  align-items: center; }
-  .section_header p {
-    font-size: 15px; }
+  align-items: center;
+  font-weight: 400; }
 
-.container_puntos_imagen {
-  display: flex;
-  flex-direction: row-reverse; }
+.tittle_about_us {
+  font-size: 34px; }
+
+.text_tittle_about_us {
+  padding-top: 40px; }
+
+.container_points_img {
+  display: flex; }
 
 .img_container_about_1 {
   display: flex;
@@ -29,12 +34,10 @@
 
 .points {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: space-between;
-  height: 420px;
-  width: 690px;
   padding-top: 40px; }
-  .points .icon_box {
+  .points .icon_box_points {
     font-size: 24px;
     color: #007bff;
     border-radius: 100px;
@@ -44,6 +47,14 @@
     display: flex;
     align-items: center;
     justify-content: center; }
+
+.text_box_points {
+  display: flex;
+  font-size: 16px;
+  color: #556877; }
+
+.tittle_icon_box_points {
+  color: #556877; }
 
 .section-why-us {
   background-color: #1445b3;
@@ -511,7 +522,7 @@ ul li a:hover {
 .avatar4 {
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNp0KGabszKxU0uZUVAVzYAq1kwQv7PqvbZxXeVLwbI1oZl6zxYQ); }
 
-@media (max-width: 890px) {
+@media (max-width: 768px) {
   .team-avatar-img {
     width: 310px;
     height: 310px;
@@ -529,29 +540,39 @@ body {
 
 .testimonials-section {
   background-color: #ecf5ff;
-  display: flex; }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 45px; }
+
+.header-testimonials {
+  margin: 60px 0px; }
 
 .titulo-testimonials {
   font-family: "Montserrat", sans-serif;
   font-size: 33px;
-  font-weight: 500; }
+  font-weight: 500;
+  color: #444444; }
 
 .slider-testimonials-container {
-  display: flex; }
-
-.slider-testimonials {
+  display: flex;
   width: 750px;
   overflow-x: hidden;
+  transition: all 0.5s;
+  margin-bottom: 30px; }
+
+.slider-testimonials {
   display: flex; }
 
 .slide-testimonials {
+  display: flex;
   width: 750px;
   font-family: "Montserrat", sans-serif;
   list-style: none; }
 
 .img-testimonials {
-  width: 150px;
-  height: 150px;
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
   background-position: center;
   background-size: cover; }
@@ -564,10 +585,15 @@ body {
   font-size: 14px;
   color: #999999; }
 
+.button-testimonials-container {
+  display: flex; }
+
 .button-testimonials {
-  display: flex;
-  justify-content: space-evenly;
-  height: 10px;
-  width: 10px;
+  margin: 0 5px;
+  height: 12px;
+  width: 12px;
   background-color: #cacaca;
   border-radius: 50%; }
+
+.button-testimonials:active {
+  background-color: #007bff; }
