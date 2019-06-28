@@ -48,7 +48,6 @@
     align-items: center;
     justify-content: center; }
 
-<<<<<<< HEAD
 .text_box_points {
   display: flex;
   font-size: 16px;
@@ -57,10 +56,7 @@
 .tittle_icon_box_points {
   color: #556877; }
 
-.section_why_us {
-=======
 .section-why-us {
->>>>>>> 2d652b5e307c27b3cea2a33334cd5ce31ae90c36
   background-color: #1445b3;
   height: auto;
   display: flex;
