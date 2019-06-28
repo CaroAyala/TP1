@@ -78,3 +78,15 @@ $border-form-hover: #007bff;
   padding: 8px;
   margin: 0px 10px 20px 0px;
 }
+@mixin button-contact {
+  width: 170px;
+  height: 40px;
+  background-color: $background-color-button;
+  border: 0;
+  border-radius: 20px;
+  padding: 8px 30px;
+  font-family: $font-style-paragraph;
+  color: $font-color-title;
+  font-size: 15px;
+  text-align: center;
+}
