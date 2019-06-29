@@ -429,6 +429,10 @@ ul li a:hover {
   .services-boxes-card:hover .title-services-box-a {
     color: #007bff; }
 
+@media (max-width: 360px) {
+  .header-services {
+    width: 300px; } }
+
 .team-section {
   display: flex;
   justify-content: center;
@@ -494,7 +498,8 @@ ul li a:hover {
 .team-work {
   font-family: "Open Sans", sans-serif;
   font-size: 13px;
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  font-style: italic; }
 
 .team-icons .fab {
   text-align: center;
@@ -526,10 +531,7 @@ ul li a:hover {
   .header-team-container {
     width: 300px; }
   .team-avatar-img {
-    width: 310px;
-    height: 310px;
-    margin-bottom: 20px;
-    margin-top: 20px; } }
+    margin-bottom: 30px; } }
 
 body {
   margin: 0;
@@ -573,12 +575,16 @@ body {
   font-family: "Montserrat", sans-serif;
   list-style: none; }
 
+.img-testimonials-container {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%; }
+
 .img-testimonials {
-  width: 140px;
-  height: 140px;
+  width: 130px;
+  height: 130px;
   border-radius: 50%;
-  background-position: center;
-  background-size: cover; }
+  border: 4px solid white; }
 
 .text-container-testimonials {
   display: flex;
@@ -598,7 +604,8 @@ body {
 .texto-slide-testimonials {
   font-size: 16px;
   color: #444444;
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Open Sans", sans-serif;
+  font-style: italic; }
 
 .button-testimonials-container {
   display: flex; }

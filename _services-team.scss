@@ -103,6 +103,13 @@
     color: $font-color-menu-hover;
   }
 }
+@media (max-width: 360px) {
+  .header-services {
+    width: 300px;
+  }
+  .services {
+  }
+}
 
 // TEAM
 .team-section {
@@ -167,6 +174,7 @@
   font-family: $font-style-paragraph;
   font-size: 13px;
   margin-bottom: 15px;
+  font-style: italic;
 }
 .team-icons .fab {
   text-align: center;
@@ -199,9 +207,6 @@
     width: 300px;
   }
   .team-avatar-img {
-    width: 310px;
-    height: 310px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 30px;
   }
 }
