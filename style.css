@@ -92,7 +92,7 @@
   background-color: #01448b;
   border-radius: 10px;
   width: 250px;
-  height: auto;
+  height: 265px;
   margin: 25px;
   padding: 15px;
   color: #ffffff;
@@ -132,10 +132,9 @@
     text-align: center;
     transition: all 0.8s;
     margin-top: 10px; }
-
-.why-us-read-more-box-body:hover {
-  padding: 2px;
-  border-bottom: 2px solid #ffffff; }
+    .why-us-box-body .why-us-read-more-box-body:hover {
+      padding: 2px;
+      border-bottom: 2px solid #ffffff; }
 
 .why-us-counter-container {
   height: 130px;
