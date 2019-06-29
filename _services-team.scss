@@ -4,6 +4,7 @@
   flex-direction: column;
   background-color: $background-color-service;
   height: auto;
+  padding: 0 25px 25px 25px;
 }
 .header-services {
   display: flex;
@@ -43,8 +44,6 @@
   flex-direction: column;
   justify-content: center;
   position: relative;
-  width: 100%;
-  height: auto;
   margin-top: 20px;
   overflow: hidden;
 
@@ -103,11 +102,14 @@
     color: $font-color-menu-hover;
   }
 }
+@media (max-width: 768px) {
+  .services-boxes {
+    padding: 0;
+  }
+}
 @media (max-width: 360px) {
   .header-services {
     width: 300px;
-  }
-  .services {
   }
 }
 
