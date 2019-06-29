@@ -91,8 +91,8 @@
 .why-us-box {
   background-color: #01448b;
   border-radius: 10px;
-  width: 290px;
-  height: 270px;
+  width: 250px;
+  height: 265px;
   margin: 25px;
   padding: 15px;
   color: #ffffff;
@@ -103,7 +103,7 @@
 
 .icono-box-why-us {
   height: 63px;
-  margin: 10px 0px 10px 0px;
+  margin-top: 10px;
   font-family: "Montserrat", sans-serif;
   color: #aed0f3;
   text-align: center;
@@ -111,16 +111,17 @@
 
 .why-us-box-body {
   padding: 5px;
-  height: 190px;
+  height: auto;
   line-height: 1.5;
   font-family: "Montserrat", sans-serif;
   color: #ffffff;
   text-align: center; }
   .why-us-box-body .why-us-tittle-box-body {
-    font-size: 20px;
-    font-weight: 600; }
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 0px 0px 10px; }
   .why-us-box-body .why-us-text-box-body {
-    font-size: 15px;
+    font-size: 13px;
     margin-top: 20px;
     margin-bottom: 20px; }
   .why-us-box-body .why-us-read-more-box-body {
@@ -129,11 +130,11 @@
     color: #ffffff;
     font-weight: 700;
     text-align: center;
-    transition: all 0.8s; }
-
-.why-us-read-more-box-body:hover {
-  padding: 2px;
-  border-bottom: 2px solid #ffffff; }
+    transition: all 0.8s;
+    margin-top: 10px; }
+    .why-us-box-body .why-us-read-more-box-body:hover {
+      padding: 2px;
+      border-bottom: 2px solid #ffffff; }
 
 .why-us-counter-container {
   height: 130px;
@@ -157,12 +158,12 @@
 
 .section-contact-us {
   background-color: #ffffff;
-  height: 560px;
+  height: auto;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.2); }
 
 .contact-us-container-info {
   max-width: 100%;
-  padding: 60px 0;
+  padding: 30px 0 60px 0px;
   display: flex;
   flex-direction: column; }
 
@@ -174,6 +175,8 @@
     font-size: 33px;
     line-height: 1.2;
     text-align: center;
+    margin: 10px;
+    font-weight: 600;
     color: #283d50; }
 
 .contact-us-container-map-form {
@@ -186,7 +189,7 @@
 
 .contact-us-container-form {
   width: 50%;
-  margin: 0 20px 0 15px; }
+  margin: -15px 20px 0 15px; }
 
 .contact-us-form-header {
   width: 98%;
@@ -194,7 +197,7 @@
   justify-content: space-between; }
 
 .contact-us-minibox-form {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   display: flex;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
@@ -205,7 +208,7 @@
   .contact-us-minibox-form .fa-phone {
     color: #007bff;
     font-size: 22px;
-    margin-right: 5px; }
+    margin: 15px 5px 0px 0px; }
 
 .contact-us-form-data {
   width: 100%;
@@ -254,9 +257,8 @@
     font-size: 15px;
     text-align: center;
     transition: 0.3s; }
-
-.button-form:hover {
-  background-color: #1445b3; }
+    .contact-us-form-data-button .button-form:hover {
+      background-color: #003b7a; }
 
 .section-footer {
   background-color: #1445b3;
@@ -264,16 +266,137 @@
   display: flex;
   justify-content: center; }
 
-* {
-  margin: 0;
+.footer-top {
+  width: 100%;
+  height: auto;
+  margin: 50px 0px 50px 0px;
+  display: flex;
+  justify-content: space-between; }
+
+.footer-card-title {
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  margin-top: 0; }
+
+.footer-card-text {
+  font-size: 13px;
+  line-height: 28px;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif; }
+
+.footer-card-title-wayne {
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 3px;
+  font-size: 34px;
+  font-weight: 400;
+  margin-top: 0; }
+
+.wayne {
+  flex: 3;
+  margin-right: 50px; }
+
+.links {
+  flex: 1;
+  margin-right: 50px; }
+
+.contact {
+  flex: 2;
+  margin-right: 50px; }
+
+.newsletter {
+  flex: 3; }
+
+.footer-top-social-links {
+  width: 100%;
+  display: flex;
+  justify-content: space-between; }
+
+.icon-social-footer {
+  background-color: #007bff;
+  width: 25px;
+  height: 25px;
+  font-size: 18px;
+  color: #fff;
+  padding: 6px;
+  margin-right: 4px;
+  border-radius: 250px;
+  text-align: center;
+  transition: 0.3s; }
+  .icon-social-footer:hover {
+    background-color: #003b7a; }
+
+.fa-twitter,
+.fa-facebook-f,
+.fa-instagram,
+.fa-google-plus-g,
+.fa-linkedin-in {
+  color: #ffffff;
+  margin-top: 4px; }
+
+.footer-card-text-list {
+  list-style: none;
+  text-align: left;
   padding: 0; }
+
+.footer-links {
+  font-size: 13px;
+  line-height: 28px;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  line-height: 32px;
+  transition: 0.3s; }
+  .footer-links:hover {
+    color: #007bff; }
+
+.footer-box-newsletter-form {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px; }
+
+.footer-form-field {
+  width: 70%;
+  height: 20px;
+  border: 0;
+  padding: 6px 0px 8px 0px; }
+
+.footer-form-boton {
+  width: 30%;
+  background-color: #007bff;
+  height: 34px;
+  padding: 6px 8px;
+  border: 0;
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+  font-size: 15px;
+  text-align: center; }
+  .footer-form-boton:hover {
+    background-color: #003b7a; }
+
+.section-footer-bottom {
+  background-color: #00428a;
+  height: auto;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  line-height: 1.8; }
 
 .section_header {
   display: flex;
   justify-content: center; }
-
-.section_header p {
-  font-size: 15px; }
 
 .header {
   display: flex;
@@ -294,34 +417,11 @@
 .menu_botonera {
   height: 80px; }
 
-.menu_botonera ul {
+.menu_botonera {
   display: flex;
   justify-content: center;
   list-style: none;
   overflow: hidden; }
-
-.menu_logo img {
-  justify-content: flex-start;
-  margin: 0;
-  padding: 0;
-  width: 67px;
-  overflow: hidden;
-  margin: 7px 0 7px 0; }
-
-ul li {
-  font-family: "Montserrat", sans-serif;
-  font-size: 16px; }
-
-ul li a {
-  display: flex;
-  padding: 3px;
-  color: #004289;
-  text-decoration: none;
-  justify-content: flex-end;
-  align-items: center; }
-
-ul li a:hover {
-  color: #007bff; }
 
 .banner_intro {
   height: 634.047px;

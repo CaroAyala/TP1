@@ -7,24 +7,20 @@
   font-family: $font-style-title;
 }
 .section_header_about_us {
-  padding-top: 50px;  
+  padding-top: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-weight: 400;
-  
- 
 }
 .tittle_about_us {
-    font-size: 34px;
-    
+  font-size: 34px;
 }
 .text_tittle_about_us {
   padding-top: 40px;
 }
 .container_points_img {
   display: flex;
-  
 }
 .img_container_about_1 {
   display: flex;
@@ -39,7 +35,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-    // height: 420px;
+  // height: 420px;
   // width: 690px;
   padding-top: 40px;
   .icon_box_points {
@@ -52,15 +48,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
-    }
+  }
 }
 .text_box_points {
   display: flex;
   font-size: 16px;
   color: $font-color-subtitle;
-  
-  
 }
 .tittle_icon_box_points {
   color: $font-color-subtitle;

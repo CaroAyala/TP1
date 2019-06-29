@@ -25,8 +25,8 @@
 .why-us-box {
   background-color: $background-color-choose-card;
   border-radius: 10px;
-  width: 290px;
-  height: 270px;
+  width: 250px;
+  height: 265px;
   margin: 25px;
   padding: 15px;
   color: $background-color-service-card;
@@ -37,7 +37,7 @@
 }
 .icono-box-why-us {
   height: 63px;
-  margin: 10px 0px 10px 0px;
+  margin-top: 10px;
   font-family: $font-style-title;
   color: #aed0f3;
   text-align: center;
@@ -45,15 +45,16 @@
 }
 .why-us-box-body {
   padding: 5px;
-  height: 190px;
+  height: auto;
   line-height: 1.5;
   @include card;
   .why-us-tittle-box-body {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
+    margin: 10px 0px 0px 10px;
   }
   .why-us-text-box-body {
-    font-size: 15px;
+    font-size: 13px;
     margin-top: 20px;
     margin-bottom: 20px;
   }
@@ -64,12 +65,14 @@
     font-weight: 700;
     text-align: center;
     transition: all 0.8s;
+    margin-top: 10px;
+    &:hover {
+      padding: 2px;
+      border-bottom: 2px solid $font-color-title;
+    }
   }
 }
-.why-us-read-more-box-body:hover {
-  padding: 2px;
-  border-bottom: 2px solid $font-color-title;
-}
+
 .why-us-counter-container {
   height: 130px;
   padding-bottom: 10px;
@@ -84,16 +87,17 @@
   font-size: 48px;
   font-weight: 700;
 }
+
 //
 // CONTACT US
 .section-contact-us {
   background-color: $background-color-service-card;
-  height: 560px;
+  height: auto;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.2);
 }
 .contact-us-container-info {
   max-width: 100%;
-  padding: 60px 0;
+  padding: 30px 0 60px 0px;
   display: flex;
   flex-direction: column;
 }
@@ -101,6 +105,8 @@
   height: auto;
   .contact-us-header-title {
     @include titulos;
+    margin: 10px;
+    font-weight: 600;
     color: $font-color-about-title;
   }
 }
@@ -114,7 +120,7 @@
 }
 .contact-us-container-form {
   width: 50%;
-  margin: 0 20px 0 15px;
+  margin: -15px 20px 0 15px;
 }
 .contact-us-form-header {
   width: 98%;
@@ -122,7 +128,7 @@
   justify-content: space-between;
 }
 .contact-us-minibox-form {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   display: flex;
   font-family: $font-style-paragraph;
   font-size: 16px;
@@ -133,7 +139,7 @@
   .fa-phone {
     color: $background-color-button;
     font-size: 22px;
-    margin-right: 5px;
+    margin: 15px 5px 0px 0px;
   }
 }
 .contact-us-form-data {
@@ -161,15 +167,136 @@
   .button-form {
     @include button-contact;
     transition: 0.3s;
+    &:hover {
+      background-color: $background-color-button-send-hover;
+    }
   }
 }
-.button-form:hover {
-  background-color: $background-color-main;
-}
+
 // FOOTER ⁄⁄
 .section-footer {
   background-color: $background-color-main;
   height: auto;
   display: flex;
   justify-content: center;
+}
+.footer-top {
+  width: 100%;
+  height: auto;
+  margin: 50px 0px 50px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-card-title {
+  @include footer-card-title;
+  font-size: 15px;
+  margin-top: 0;
+}
+.footer-card-text {
+  @include footer-card-text;
+}
+.footer-card-title-wayne {
+  @include footer-card-title;
+  font-family: $font-style-title;
+  letter-spacing: 3px;
+  font-size: 34px;
+  font-weight: 400;
+  margin-top: 0;
+}
+.wayne {
+  flex: 3;
+  margin-right: 50px;
+}
+.links {
+  flex: 1;
+  margin-right: 50px;
+}
+.contact {
+  flex: 2;
+  margin-right: 50px;
+}
+.newsletter {
+  flex: 3;
+}
+.footer-top-social-links {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.icon-social-footer {
+  background-color: $background-color-button;
+  width: 25px;
+  height: 25px;
+  font-size: 18px;
+  color: #fff;
+  padding: 6px;
+  margin-right: 4px;
+  border-radius: 250px;
+  text-align: center;
+  transition: 0.3s;
+  &:hover {
+    background-color: $background-color-button-send-hover;
+  }
+}
+
+.fa-twitter,
+.fa-facebook-f,
+.fa-instagram,
+.fa-google-plus-g,
+.fa-linkedin-in {
+  color: $font-color-title;
+  margin-top: 4px;
+}
+.footer-card-text-list {
+  list-style: none;
+  text-align: left;
+  padding: 0;
+}
+.footer-links {
+  @include footer-card-text;
+  text-decoration: none;
+  line-height: 32px;
+  transition: 0.3s;
+  &:hover {
+    color: $font-color-sections-subtitle-hover;
+  }
+}
+.footer-box-newsletter-form {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.footer-form-field {
+  width: 70%;
+  height: 20px;
+  border: 0;
+  padding: 6px 0px 8px 0px;
+}
+.footer-form-boton {
+  width: 30%;
+  background-color: $background-color-button;
+  height: 34px;
+  padding: 6px 8px;
+  border: 0;
+  font-family: $font-style-paragraph;
+  color: $font-color-title;
+  font-size: 15px;
+  text-align: center;
+  &:hover {
+    background-color: $background-color-button-send-hover;
+  }
+}
+.section-footer-bottom {
+  background-color: $background-color-end;
+  height: auto;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  font-family: $font-style-paragraph;
+  color: $font-color-title;
+  font-size: 14px;
+  text-align: center;
+  line-height: 1.8;
 }
