@@ -185,9 +185,6 @@
   display: flex;
   justify-content: space-between;
 }
-// .footer-top-card {
-//   margin-right: 50px;
-// }
 .footer-card-title {
   @include footer-card-title;
   font-size: 15px;
@@ -217,7 +214,7 @@
   margin-right: 50px;
 }
 .newsletter {
-  flex: 2;
+  flex: 3;
 }
 .footer-top-social-links {
   width: 100%;
@@ -226,14 +223,14 @@
 }
 .icon-social-footer {
   background-color: $background-color-button;
+  width: 25px;
+  height: 25px;
   font-size: 18px;
   color: #fff;
   padding: 6px;
   margin-right: 4px;
   border-radius: 250px;
   text-align: center;
-  width: 25px;
-  height: 25px;
   transition: 0.3s;
   &:hover {
     background-color: $background-color-button-send-hover;
@@ -264,16 +261,40 @@
 }
 .footer-box-newsletter-form {
   width: 100%;
+  height: auto;
   display: flex;
   justify-content: space-between;
+  margin-top: 40px;
 }
 .footer-form-field {
   width: 70%;
-  height: 30px;
+  height: 20px;
   border: 0;
-  padding: 6px 8px;
-  width: 100px;
+  padding: 6px 0px 8px 0px;
 }
 .footer-form-boton {
   width: 30%;
+  background-color: $background-color-button;
+  height: 34px;
+  padding: 6px 8px;
+  border: 0;
+  font-family: $font-style-paragraph;
+  color: $font-color-title;
+  font-size: 15px;
+  text-align: center;
+  &:hover {
+    background-color: $background-color-button-send-hover;
+  }
+}
+.section-footer-bottom {
+  background-color: $background-color-end;
+  height: auto;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  font-family: $font-style-paragraph;
+  color: $font-color-title;
+  font-size: 14px;
+  text-align: center;
+  line-height: 1.8;
 }

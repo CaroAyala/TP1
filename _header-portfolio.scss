@@ -1,18 +1,18 @@
 // HEADER //
 
-* {
-  margin: 0;
-  padding: 0;
-}
+// * {
+//   margin: 0;
+//   padding: 0;
+// }
 
 .section_header {
   display: flex;
   justify-content: center;
 }
 
-.section_header p {
-  font-size: 15px;
-}
+// .section_header p {
+//   font-size: 15px;
+// }
 
 .header {
   display: flex;
@@ -36,39 +36,38 @@
   height: 80px;
 }
 
-.menu_botonera ul {
+.menu_botonera {
   display: flex;
   justify-content: center;
   list-style: none;
   overflow: hidden;
 }
 
-.menu_logo img {
-  justify-content: flex-start;
-  margin: 0;
-  padding: 0;
-  width: 67px;
-  overflow: hidden;
-  margin: 7px 0 7px 0;
-}
+// .menu_logo img {
+//   justify-content: flex-start;
+//   margin: 0;
+//   padding: 0;
+//   width: 67px;
+//   overflow: hidden;
+//   margin: 7px 0 7px 0;
+// }
 
-ul li {
-  font-family: "Montserrat", sans-serif;
-  font-size: 16px;
-}
+// ul li {
+//   font-family: "Montserrat", sans-serif;
+//   font-size: 16px;
+// }
 
-ul li a {
-  display: flex;
-  padding: 3px;
-  color: $font-color-menu;
-  text-decoration: none;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-ul li a:hover {
-  color: $font-color-menu-hover;
-}
+// ul li a {
+//   display: flex;
+//   padding: 3px;
+//   color: $font-color-menu;
+//   text-decoration: none;
+//   justify-content: flex-end;
+//   align-items: center;
+// }
+// ul li a:hover {
+//   color: $font-color-menu-hover;
+// }
 
 .banner_intro {
   height: 634.047px;

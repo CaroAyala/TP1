@@ -91,3 +91,15 @@ $border-form-hover: #007bff;
   font-size: 15px;
   text-align: center;
 }
+@mixin footer-card-title {
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: $font-color-title;
+  font-family: $font-style-paragraph;
+}
+@mixin footer-card-text {
+  font-size: 13px;
+  line-height: 28px;
+  color: $font-color-title;
+  font-family: $font-style-paragraph;
+}
