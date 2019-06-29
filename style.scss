@@ -41,6 +41,7 @@ body {
   overflow-x: hidden;
   transition: all 0.5s;
   margin-bottom: 30px;
+  scroll-behavior: smooth;
 }
 .slider-testimonials {
   display: flex;
@@ -58,13 +59,25 @@ body {
   background-position: center;
   background-size: cover;
 }
+.text-container-testimonials {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 25px;
+}
 .titulo-slide-testimonials {
   font-size: 20px;
   font-weight: 600;
+  margin-bottom: 5px;
 }
 .subtitulo-slide-testimonials {
   font-size: 14px;
   color: #999999;
+  margin-bottom: 15px;
+}
+.texto-slide-testimonials {
+  font-size: 16px;
+  color: $font-color-paragraph;
+  font-family: $font-style-paragraph;
 }
 .button-testimonials-container {
   display: flex;
@@ -76,7 +89,19 @@ body {
   background-color: rgb(202, 202, 202);
   border-radius: 50%;
 }
-// no funca el translate y cada vez que aprieto se me baja la pantalla
 .button-testimonials:active {
   background-color: $background-color-button-hover;
+}
+
+@media (max-width: 360px) {
+  .slider-testimonials-container {
+    width: 320px;
+    overflow-x: hidden;
+  }
+  .slide-testimonials {
+    width: 320px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
